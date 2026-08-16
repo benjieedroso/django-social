@@ -124,3 +124,7 @@ STATIC_URL = 'static/'
 # https://github.com/django-crispy-forms/crispy-bootstrap5
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5"
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+#Redirect
+LOGIN_REDIRECT_URL='blog-home'
+LOGIN_URL = 'login'
